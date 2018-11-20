@@ -1,0 +1,6 @@
+framework module Pods_OpenAR {
+  umbrella header "Pods-OpenAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,6 +9,10 @@
 import UIKit
 import HockeySDK
 
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -20,6 +24,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         BITHockeyManager.shared().configure(withIdentifier:"a08048d16b5044f0bebb6006a1d7af76")
         BITHockeyManager.shared().start()
         BITHockeyManager.shared().authenticator.authenticateInstallation()
+        
+        MSAppCenter.start("92a59858-8ab1-43c0-85bb-85b911736ce7", withServices:[
+            MSAnalytics.self,
+            MSCrashes.self
+            ])
         
         return true
     }

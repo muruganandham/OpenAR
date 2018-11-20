@@ -35,6 +35,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		26611B5121A418A80020BA8D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		26611ABD21A4159A0020BA8D /* OpenAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611AC021A4159A0020BA8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -145,6 +158,7 @@
 				26611AB921A4159A0020BA8D /* Sources */,
 				26611ABA21A4159A0020BA8D /* Frameworks */,
 				26611ABB21A4159A0020BA8D /* Resources */,
+				26611B5121A418A80020BA8D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -439,8 +453,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9A3XYQH875;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AppCenter/AppCenter-SDK-Apple/iOS",
+				);
 				INFOPLIST_FILE = OpenAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pondi.openar.OpenAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = openAR;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -456,8 +475,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9A3XYQH875;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AppCenter/AppCenter-SDK-Apple/iOS",
+				);
 				INFOPLIST_FILE = OpenAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pondi.openar.OpenAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = OpenARAdhoc;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

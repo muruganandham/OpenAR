@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-HOCKEYAPP_API_TOKEN={API_Token}
-HOCKEYAPP_APP_ID={APP_ID}
+HOCKEYAPP_API_TOKEN="82e014418bc228de9d19717a6620646b"
+HOCKEYAPP_APP_ID= "a08048d16b5044f0bebb6006a1d7af76"
 
 # Example: Upload master branch app binary to HockeyApp using the API
 if [ "$APPCENTER_BRANCH" == "master" ];

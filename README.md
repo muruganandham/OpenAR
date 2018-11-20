@@ -1,1 +1,1 @@
-# OpenAR
+# OpenAR project

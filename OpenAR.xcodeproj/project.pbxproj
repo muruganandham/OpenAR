@@ -16,6 +16,8 @@
 		26611AD221A4159B0020BA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AD121A4159B0020BA8D /* main.m */; };
 		26611ADC21A4159B0020BA8D /* OpenARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611ADB21A4159B0020BA8D /* OpenARTests.m */; };
 		26611AE721A4159B0020BA8D /* OpenARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AE621A4159B0020BA8D /* OpenARUITests.m */; };
+		26611B6121A443910020BA8D /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26611B5F21A443910020BA8D /* HockeySDKResources.bundle */; };
+		26611B6221A443910020BA8D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611B6021A443910020BA8D /* HockeySDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		26611AE221A4159B0020BA8D /* OpenARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611AE621A4159B0020BA8D /* OpenARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenARUITests.m; sourceTree = "<group>"; };
 		26611AE821A4159B0020BA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26611B5F21A443910020BA8D /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		26611B6021A443910020BA8D /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26611B6221A443910020BA8D /* HockeySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +121,7 @@
 		26611ABF21A4159A0020BA8D /* OpenAR */ = {
 			isa = PBXGroup;
 			children = (
+				26611B5E21A443910020BA8D /* HockeySDK.embeddedframework */,
 				26611AC021A4159A0020BA8D /* AppDelegate.h */,
 				26611AC121A4159A0020BA8D /* AppDelegate.m */,
 				26611AC321A4159A0020BA8D /* art.scnassets */,
@@ -148,6 +154,15 @@
 			path = OpenARUITests;
 			sourceTree = "<group>";
 		};
+		26611B5E21A443910020BA8D /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				26611B5F21A443910020BA8D /* HockeySDKResources.bundle */,
+				26611B6021A443910020BA8D /* HockeySDK.framework */,
+			);
+			path = HockeySDK.embeddedframework;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +174,7 @@
 				26611ABA21A4159A0020BA8D /* Frameworks */,
 				26611ABB21A4159A0020BA8D /* Resources */,
 				26611B5121A418A80020BA8D /* Embed Frameworks */,
+				26611B5221A442C00020BA8D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,6 +270,7 @@
 			files = (
 				26611AC421A4159A0020BA8D /* art.scnassets in Resources */,
 				26611ACF21A4159B0020BA8D /* LaunchScreen.storyboard in Resources */,
+				26611B6121A443910020BA8D /* HockeySDKResources.bundle in Resources */,
 				26611ACC21A4159B0020BA8D /* Assets.xcassets in Resources */,
 				26611ACA21A4159A0020BA8D /* Main.storyboard in Resources */,
 			);
@@ -274,6 +291,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26611B5221A442C00020BA8D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26611AB921A4159A0020BA8D /* Sources */ = {
@@ -458,6 +495,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/AppCenter/AppCenter-SDK-Apple/iOS",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+					"$(PROJECT_DIR)/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = OpenAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,6 +520,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/AppCenter/AppCenter-SDK-Apple/iOS",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+					"$(PROJECT_DIR)/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = OpenAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

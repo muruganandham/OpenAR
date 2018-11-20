@@ -15,6 +15,22 @@
 		26611A7021A2FA870020BA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26611A6E21A2FA870020BA8D /* LaunchScreen.storyboard */; };
 		26611A7B21A2FA870020BA8D /* OpenARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26611A7A21A2FA870020BA8D /* OpenARTests.swift */; };
 		26611A8621A2FA870020BA8D /* OpenARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26611A8521A2FA870020BA8D /* OpenARUITests.swift */; };
+		26611A9621A3DADC0020BA8D /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26611A9421A3DADC0020BA8D /* HockeySDKResources.bundle */; };
+		26611A9721A3DADC0020BA8D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611A9521A3DADC0020BA8D /* HockeySDK.framework */; };
+		26611A9821A3DAE70020BA8D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611A9521A3DADC0020BA8D /* HockeySDK.framework */; };
+		26611A9921A3DAE70020BA8D /* HockeySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26611A9521A3DADC0020BA8D /* HockeySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26611A9B21A3DAF00020BA8D /* HockeySDKResources.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 26611A9421A3DADC0020BA8D /* HockeySDKResources.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26611A9F21A3DB6C0020BA8D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611A9E21A3DB6C0020BA8D /* AssetsLibrary.framework */; };
+		26611AA121A3DB730020BA8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AA021A3DB730020BA8D /* CoreGraphics.framework */; };
+		26611AA321A3DB780020BA8D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AA221A3DB780020BA8D /* CoreText.framework */; };
+		26611AA521A3DB7F0020BA8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AA421A3DB7F0020BA8D /* Foundation.framework */; };
+		26611AA721A3DB870020BA8D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AA621A3DB870020BA8D /* MobileCoreServices.framework */; };
+		26611AA921A3DB910020BA8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AA821A3DB910020BA8D /* QuartzCore.framework */; };
+		26611AAB21A3DBBD0020BA8D /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AAA21A3DBBD0020BA8D /* QuickLook.framework */; };
+		26611AAD21A3DBC50020BA8D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AAC21A3DBC50020BA8D /* Security.framework */; };
+		26611AAF21A3DBD00020BA8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AAE21A3DBD00020BA8D /* SystemConfiguration.framework */; };
+		26611AB121A3DBDB0020BA8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AB021A3DBDB0020BA8D /* UIKit.framework */; };
+		26611AB321A3DBE30020BA8D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611AB221A3DBE30020BA8D /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		26611A9A21A3DAE70020BA8D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				26611A9921A3DAE70020BA8D /* HockeySDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26611A9C21A3DAF00020BA8D /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				26611A9B21A3DAF00020BA8D /* HockeySDKResources.bundle in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		26611A6021A2FA860020BA8D /* OpenAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611A6321A2FA860020BA8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +90,19 @@
 		26611A8121A2FA870020BA8D /* OpenARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611A8521A2FA870020BA8D /* OpenARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenARUITests.swift; sourceTree = "<group>"; };
 		26611A8721A2FA870020BA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26611A9421A3DADC0020BA8D /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		26611A9521A3DADC0020BA8D /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		26611A9E21A3DB6C0020BA8D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		26611AA021A3DB730020BA8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26611AA221A3DB780020BA8D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		26611AA421A3DB7F0020BA8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26611AA621A3DB870020BA8D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		26611AA821A3DB910020BA8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		26611AAA21A3DBBD0020BA8D /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		26611AAC21A3DBC50020BA8D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		26611AAE21A3DBD00020BA8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		26611AB021A3DBDB0020BA8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26611AB221A3DBE30020BA8D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26611AB321A3DBE30020BA8D /* libc++.tbd in Frameworks */,
+				26611AB121A3DBDB0020BA8D /* UIKit.framework in Frameworks */,
+				26611AAF21A3DBD00020BA8D /* SystemConfiguration.framework in Frameworks */,
+				26611AAD21A3DBC50020BA8D /* Security.framework in Frameworks */,
+				26611AAB21A3DBBD0020BA8D /* QuickLook.framework in Frameworks */,
+				26611AA921A3DB910020BA8D /* QuartzCore.framework in Frameworks */,
+				26611AA721A3DB870020BA8D /* MobileCoreServices.framework in Frameworks */,
+				26611AA521A3DB7F0020BA8D /* Foundation.framework in Frameworks */,
+				26611AA321A3DB780020BA8D /* CoreText.framework in Frameworks */,
+				26611AA121A3DB730020BA8D /* CoreGraphics.framework in Frameworks */,
+				26611A9F21A3DB6C0020BA8D /* AssetsLibrary.framework in Frameworks */,
+				26611A9821A3DAE70020BA8D /* HockeySDK.framework in Frameworks */,
+				26611A9721A3DADC0020BA8D /* HockeySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +146,12 @@
 		26611A5721A2FA860020BA8D = {
 			isa = PBXGroup;
 			children = (
+				26611A9321A3DADC0020BA8D /* HockeySDK.embeddedframework */,
 				26611A6221A2FA860020BA8D /* OpenAR */,
 				26611A7921A2FA870020BA8D /* OpenARTests */,
 				26611A8421A2FA870020BA8D /* OpenARUITests */,
 				26611A6121A2FA860020BA8D /* Products */,
+				26611A9D21A3DB6C0020BA8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +197,33 @@
 			path = OpenARUITests;
 			sourceTree = "<group>";
 		};
+		26611A9321A3DADC0020BA8D /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				26611A9421A3DADC0020BA8D /* HockeySDKResources.bundle */,
+				26611A9521A3DADC0020BA8D /* HockeySDK.framework */,
+			);
+			path = HockeySDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		26611A9D21A3DB6C0020BA8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26611AB221A3DBE30020BA8D /* libc++.tbd */,
+				26611AB021A3DBDB0020BA8D /* UIKit.framework */,
+				26611AAE21A3DBD00020BA8D /* SystemConfiguration.framework */,
+				26611AAC21A3DBC50020BA8D /* Security.framework */,
+				26611AAA21A3DBBD0020BA8D /* QuickLook.framework */,
+				26611AA821A3DB910020BA8D /* QuartzCore.framework */,
+				26611AA621A3DB870020BA8D /* MobileCoreServices.framework */,
+				26611AA421A3DB7F0020BA8D /* Foundation.framework */,
+				26611AA221A3DB780020BA8D /* CoreText.framework */,
+				26611AA021A3DB730020BA8D /* CoreGraphics.framework */,
+				26611A9E21A3DB6C0020BA8D /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +234,8 @@
 				26611A5C21A2FA860020BA8D /* Sources */,
 				26611A5D21A2FA860020BA8D /* Frameworks */,
 				26611A5E21A2FA860020BA8D /* Resources */,
+				26611A9A21A3DAE70020BA8D /* Embed Frameworks */,
+				26611A9C21A3DAF00020BA8D /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -234,6 +332,7 @@
 			files = (
 				26611A6621A2FA860020BA8D /* art.scnassets in Resources */,
 				26611A7021A2FA870020BA8D /* LaunchScreen.storyboard in Resources */,
+				26611A9621A3DADC0020BA8D /* HockeySDKResources.bundle in Resources */,
 				26611A6D21A2FA870020BA8D /* Assets.xcassets in Resources */,
 				26611A6B21A2FA860020BA8D /* Main.storyboard in Resources */,
 			);
@@ -438,6 +537,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9A3XYQH875;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = OpenAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +559,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9A3XYQH875;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = OpenAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

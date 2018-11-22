@@ -9,4 +9,4 @@ npm install -g appcenter-cli
 
 
 # Example: Install cocoapods
-pod install
+#pod install

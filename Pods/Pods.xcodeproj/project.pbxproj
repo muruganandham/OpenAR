@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F656CDAB7D701029DE99B9DD571CDAA /* Pods-OpenAR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E0E2ACAD8CD52AFC21D4B56E35E2 /* Pods-OpenAR-dummy.m */; };
+		6C5A4E716B2EBBE6F27120E5B79E6A74 /* Pods-OpenARTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE53A9C266DAF8F6708CAF794996F0B /* Pods-OpenARTests-dummy.m */; };
+		93663319D76B49909789F5E89EE71123 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B391ABEF45637C4C3461F8F45ED17C96 /* RadioButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9707EAFEB831BA5EA0571E9B450B8AF7 /* RadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 860A450F1215BACDD57131FA8CFADC63 /* RadioButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F79479BB2B263452DB16007FC57DF9D7 /* Pods-OpenARUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EED13AAE61C15958712DA2BB5345ED4 /* Pods-OpenARUITests-dummy.m */; };
+		FDDD2CE0E0E5E9B8310B65C76ACAB44D /* RadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C08B4FE4D8577FBABFA4920F98083 /* RadioButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F753F0F27F42946CA273BE854FACE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8537D7DF3FE5C8DCCE8855BFD1043B2;
+			remoteInfo = "Pods-OpenAR";
+		};
+		72A4D80B688A6B1B2B8B912DB526F0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8537D7DF3FE5C8DCCE8855BFD1043B2;
+			remoteInfo = "Pods-OpenAR";
+		};
+		885193FB1B434C570EC97AB43D21DE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC7AF958992DE3EFBDA9439830B45E0;
+			remoteInfo = RadioButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106E3AFBC617AE0E9EF687929AB4D619 /* Pods-OpenARUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenARUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		18BDBF97BD120CCC982F466B78B3F711 /* Pods-OpenAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenAR.release.xcconfig"; sourceTree = "<group>"; };
+		1EED13AAE61C15958712DA2BB5345ED4 /* Pods-OpenARUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenARUITests-dummy.m"; sourceTree = "<group>"; };
+		206DD0B610656FB9E23F024A65805606 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		22AF59F76240D522BB00BE124A304F11 /* libPods-OpenARTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenARTests.a"; path = "libPods-OpenARTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B836AD3E63A4F14788984A640BE4CEA /* Pods-OpenARTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenARTests-resources.sh"; sourceTree = "<group>"; };
+		2E0478F1A98089E1EBF33BD5898120F0 /* RadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RadioButton.xcconfig; sourceTree = "<group>"; };
+		2F1C08B4FE4D8577FBABFA4920F98083 /* RadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RadioButton-dummy.m"; sourceTree = "<group>"; };
+		33712E588AAAE7B89DC6B9D3B1C1CCCB /* Pods-OpenAR-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenAR-resources.sh"; sourceTree = "<group>"; };
+		351ACFB5883179CF0CB9CBDB659519CF /* libPods-OpenARUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenARUITests.a"; path = "libPods-OpenARUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379C34FB7A3825E1E05F3C5345AA638B /* Pods-OpenARTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenARTests-frameworks.sh"; sourceTree = "<group>"; };
+		39F89BC0E00BAEF3948FB81B15A922F2 /* Pods-OpenARUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenARUITests-frameworks.sh"; sourceTree = "<group>"; };
+		77C848094E352B38045C6BC8831314C9 /* Pods-OpenAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenAR.debug.xcconfig"; sourceTree = "<group>"; };
+		7C10EC1D3F9CFBEBB370675EE638ED7C /* Pods-OpenARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E892FB710C875EE0781FF6A098D92A3 /* Pods-OpenARUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenARUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EC3966F4FEBBC4D9AE8BBCA693F4F20 /* libRadioButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRadioButton.a; path = libRadioButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		860A450F1215BACDD57131FA8CFADC63 /* RadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98F2701689D7ADB85699CFBB26B01759 /* Pods-OpenAR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenAR-frameworks.sh"; sourceTree = "<group>"; };
+		9B3CDBF700D8F1BB61EB4264FDFAEFF1 /* Pods-OpenARUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenARUITests-resources.sh"; sourceTree = "<group>"; };
+		9BC549A254032563DFB04E1EE5967984 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		9EBC594A239A6FC4AD0C4A10BA8FC101 /* Pods-OpenAR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenAR-acknowledgements.plist"; sourceTree = "<group>"; };
+		A011D7244DE307FA1810C465287FAED1 /* Pods-OpenARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5698246968929A3AA1F61E46A3C62E4 /* Pods-OpenARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AAE53A9C266DAF8F6708CAF794996F0B /* Pods-OpenARTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenARTests-dummy.m"; sourceTree = "<group>"; };
+		AF0D108FE965ED89D27CD7AB4B973004 /* Pods-OpenARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenARTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE3E0E2ACAD8CD52AFC21D4B56E35E2 /* Pods-OpenAR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenAR-dummy.m"; sourceTree = "<group>"; };
+		B391ABEF45637C4C3461F8F45ED17C96 /* RadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		BF69AEA98ECDEF5EDD7D6774EA1528FD /* Pods-OpenARTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenARTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CAEE9CDB2AD9FF52DAD1A9982780AB72 /* libPods-OpenAR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenAR.a"; path = "libPods-OpenAR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CC16414C9D5891895FC8F1736C3303 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		E1D3DAEED6ACCE0F83CEB58759F0FEBA /* Pods-OpenARTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenARTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E54D363B058A433A6546AAAB72604F80 /* RadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadioButton-prefix.pch"; sourceTree = "<group>"; };
+		F7BA9506AF01717D580533679DB22A29 /* Pods-OpenAR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenAR-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14BB57596652615D381AE7A421FAAD38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8176FC9E9361DF7F43DDA3843017539E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0171728D2375DD9DB1FAD754BA9173E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CA56EA395BFD0D821051C767059EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097CEE3BF3E0AAEFF9BDDB746D642FE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E0478F1A98089E1EBF33BD5898120F0 /* RadioButton.xcconfig */,
+				2F1C08B4FE4D8577FBABFA4920F98083 /* RadioButton-dummy.m */,
+				E54D363B058A433A6546AAAB72604F80 /* RadioButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RadioButton";
+			sourceTree = "<group>";
+		};
+		0AE4EEA9818BA469304D1AD3DEAD2AB0 /* Pods-OpenARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E892FB710C875EE0781FF6A098D92A3 /* Pods-OpenARUITests-acknowledgements.markdown */,
+				106E3AFBC617AE0E9EF687929AB4D619 /* Pods-OpenARUITests-acknowledgements.plist */,
+				1EED13AAE61C15958712DA2BB5345ED4 /* Pods-OpenARUITests-dummy.m */,
+				39F89BC0E00BAEF3948FB81B15A922F2 /* Pods-OpenARUITests-frameworks.sh */,
+				9B3CDBF700D8F1BB61EB4264FDFAEFF1 /* Pods-OpenARUITests-resources.sh */,
+				7C10EC1D3F9CFBEBB370675EE638ED7C /* Pods-OpenARUITests.debug.xcconfig */,
+				A5698246968929A3AA1F61E46A3C62E4 /* Pods-OpenARUITests.release.xcconfig */,
+			);
+			name = "Pods-OpenARUITests";
+			path = "Target Support Files/Pods-OpenARUITests";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47B32BE49F7BC92D55C1E1ED35DE4311 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				860A450F1215BACDD57131FA8CFADC63 /* RadioButton.h */,
+				B391ABEF45637C4C3461F8F45ED17C96 /* RadioButton.m */,
+				097CEE3BF3E0AAEFF9BDDB746D642FE5 /* Support Files */,
+			);
+			name = RadioButton;
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				A8FDD967C6B92E4BD2CB2FA27B1943A6 /* Pods */,
+				B8B13432D0FDC9D6EFA7673E2E1A852E /* Products */,
+				A5936832CFC20AAD9C19ED24EF39F684 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93BCE7893D23A2BAC8774A16AE2C8387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				206DD0B610656FB9E23F024A65805606 /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99C4C875BD3EEB2061ADFA0FD988D22B /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				DDCE47B8728DC779B7AE60DED8AE9262 /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		A4A1FD089F5CE970C69BD6EB9FF872AA /* Pods-OpenAR */ = {
+			isa = PBXGroup;
+			children = (
+				F7BA9506AF01717D580533679DB22A29 /* Pods-OpenAR-acknowledgements.markdown */,
+				9EBC594A239A6FC4AD0C4A10BA8FC101 /* Pods-OpenAR-acknowledgements.plist */,
+				AFE3E0E2ACAD8CD52AFC21D4B56E35E2 /* Pods-OpenAR-dummy.m */,
+				98F2701689D7ADB85699CFBB26B01759 /* Pods-OpenAR-frameworks.sh */,
+				33712E588AAAE7B89DC6B9D3B1C1CCCB /* Pods-OpenAR-resources.sh */,
+				77C848094E352B38045C6BC8831314C9 /* Pods-OpenAR.debug.xcconfig */,
+				18BDBF97BD120CCC982F466B78B3F711 /* Pods-OpenAR.release.xcconfig */,
+			);
+			name = "Pods-OpenAR";
+			path = "Target Support Files/Pods-OpenAR";
+			sourceTree = "<group>";
+		};
+		A5936832CFC20AAD9C19ED24EF39F684 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A1FD089F5CE970C69BD6EB9FF872AA /* Pods-OpenAR */,
+				FB2DD642C189873A773C41359A2919CC /* Pods-OpenARTests */,
+				0AE4EEA9818BA469304D1AD3DEAD2AB0 /* Pods-OpenARUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8FDD967C6B92E4BD2CB2FA27B1943A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E857C2D7DBE973814F59A482DF422563 /* AppCenter */,
+				47B32BE49F7BC92D55C1E1ED35DE4311 /* RadioButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8B13432D0FDC9D6EFA7673E2E1A852E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE9CDB2AD9FF52DAD1A9982780AB72 /* libPods-OpenAR.a */,
+				22AF59F76240D522BB00BE124A304F11 /* libPods-OpenARTests.a */,
+				351ACFB5883179CF0CB9CBDB659519CF /* libPods-OpenARUITests.a */,
+				7EC3966F4FEBBC4D9AE8BBCA693F4F20 /* libRadioButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8AE01557A093E65301D501095A21CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC549A254032563DFB04E1EE5967984 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25413C60409C7263E7DA9498BADEB6B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C8AE01557A093E65301D501095A21CA9 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DDCE47B8728DC779B7AE60DED8AE9262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC16414C9D5891895FC8F1736C3303 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E857C2D7DBE973814F59A482DF422563 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				F99E260D9A16CD4AB3EFF12FDC943494 /* Analytics */,
+				D25413C60409C7263E7DA9498BADEB6B /* Core */,
+				99C4C875BD3EEB2061ADFA0FD988D22B /* Crashes */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		F99E260D9A16CD4AB3EFF12FDC943494 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				93BCE7893D23A2BAC8774A16AE2C8387 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		FB2DD642C189873A773C41359A2919CC /* Pods-OpenARTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF69AEA98ECDEF5EDD7D6774EA1528FD /* Pods-OpenARTests-acknowledgements.markdown */,
+				E1D3DAEED6ACCE0F83CEB58759F0FEBA /* Pods-OpenARTests-acknowledgements.plist */,
+				AAE53A9C266DAF8F6708CAF794996F0B /* Pods-OpenARTests-dummy.m */,
+				379C34FB7A3825E1E05F3C5345AA638B /* Pods-OpenARTests-frameworks.sh */,
+				2B836AD3E63A4F14788984A640BE4CEA /* Pods-OpenARTests-resources.sh */,
+				A011D7244DE307FA1810C465287FAED1 /* Pods-OpenARTests.debug.xcconfig */,
+				AF0D108FE965ED89D27CD7AB4B973004 /* Pods-OpenARTests.release.xcconfig */,
+			);
+			name = "Pods-OpenARTests";
+			path = "Target Support Files/Pods-OpenARTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22E9261148146575969641468ECABABA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6C46F0600060506ABF1F667639AE45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E738A81DCDDCA25359A1F5CB1AF0E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC95DEE44E047445B58C008AFDCF2CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707EAFEB831BA5EA0571E9B450B8AF7 /* RadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5CC7AF958992DE3EFBDA9439830B45E0 /* RadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB5BD7181927BEAB0C9E3574750039D /* Build configuration list for PBXNativeTarget "RadioButton" */;
+			buildPhases = (
+				ACC95DEE44E047445B58C008AFDCF2CA /* Headers */,
+				0BC0CCF66883376CB8E8EFEE404882EA /* Sources */,
+				14BB57596652615D381AE7A421FAAD38 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioButton;
+			productName = RadioButton;
+			productReference = 7EC3966F4FEBBC4D9AE8BBCA693F4F20 /* libRadioButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		62DBEAB0360A28FF9FAD2B61330C8B06 /* Pods-OpenARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828025E4963EA1A0497586E92C5BD107 /* Build configuration list for PBXNativeTarget "Pods-OpenARTests" */;
+			buildPhases = (
+				22E9261148146575969641468ECABABA /* Headers */,
+				F5C585E3BDC4EA1ED0E1E39E6D1C4BCE /* Sources */,
+				8176FC9E9361DF7F43DDA3843017539E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				104BE7A3BEDFD3B98D16E77A6FF95152 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenARTests";
+			productName = "Pods-OpenARTests";
+			productReference = 22AF59F76240D522BB00BE124A304F11 /* libPods-OpenARTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACB8405F925C92F866BB55C985C7FD93 /* Pods-OpenARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558C92E03C6BB82553971147C680CFDD /* Build configuration list for PBXNativeTarget "Pods-OpenARUITests" */;
+			buildPhases = (
+				96E738A81DCDDCA25359A1F5CB1AF0E7 /* Headers */,
+				54E260095B5056DA1F144A12222ACFDE /* Sources */,
+				A0171728D2375DD9DB1FAD754BA9173E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				612F087615CAFA9E31FB4C09F2C75B2B /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenARUITests";
+			productName = "Pods-OpenARUITests";
+			productReference = 351ACFB5883179CF0CB9CBDB659519CF /* libPods-OpenARUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E8537D7DF3FE5C8DCCE8855BFD1043B2 /* Pods-OpenAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28530B92278F271AE393F88E6914C571 /* Build configuration list for PBXNativeTarget "Pods-OpenAR" */;
+			buildPhases = (
+				7B6C46F0600060506ABF1F667639AE45 /* Headers */,
+				6ADF95483D24EF1D58715B24F1C46E70 /* Sources */,
+				C0CA56EA395BFD0D821051C767059EF3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAE3067A9FB54579F38B0355B3155FD /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenAR";
+			productName = "Pods-OpenAR";
+			productReference = CAEE9CDB2AD9FF52DAD1A9982780AB72 /* libPods-OpenAR.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B8B13432D0FDC9D6EFA7673E2E1A852E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8537D7DF3FE5C8DCCE8855BFD1043B2 /* Pods-OpenAR */,
+				62DBEAB0360A28FF9FAD2B61330C8B06 /* Pods-OpenARTests */,
+				ACB8405F925C92F866BB55C985C7FD93 /* Pods-OpenARUITests */,
+				5CC7AF958992DE3EFBDA9439830B45E0 /* RadioButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC0CCF66883376CB8E8EFEE404882EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDD2CE0E0E5E9B8310B65C76ACAB44D /* RadioButton-dummy.m in Sources */,
+				93663319D76B49909789F5E89EE71123 /* RadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E260095B5056DA1F144A12222ACFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79479BB2B263452DB16007FC57DF9D7 /* Pods-OpenARUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADF95483D24EF1D58715B24F1C46E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F656CDAB7D701029DE99B9DD571CDAA /* Pods-OpenAR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C585E3BDC4EA1ED0E1E39E6D1C4BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5A4E716B2EBBE6F27120E5B79E6A74 /* Pods-OpenARTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		104BE7A3BEDFD3B98D16E77A6FF95152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpenAR";
+			target = E8537D7DF3FE5C8DCCE8855BFD1043B2 /* Pods-OpenAR */;
+			targetProxy = 1F753F0F27F42946CA273BE854FACE66 /* PBXContainerItemProxy */;
+		};
+		612F087615CAFA9E31FB4C09F2C75B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpenAR";
+			target = E8537D7DF3FE5C8DCCE8855BFD1043B2 /* Pods-OpenAR */;
+			targetProxy = 72A4D80B688A6B1B2B8B912DB526F0EA /* PBXContainerItemProxy */;
+		};
+		FDAE3067A9FB54579F38B0355B3155FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RadioButton;
+			target = 5CC7AF958992DE3EFBDA9439830B45E0 /* RadioButton */;
+			targetProxy = 885193FB1B434C570EC97AB43D21DE7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F427E263EAA4409A5DAC38793647D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0D108FE965ED89D27CD7AB4B973004 /* Pods-OpenARTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25D2726525C79DEC7CF3A8E2A430FD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C848094E352B38045C6BC8831314C9 /* Pods-OpenAR.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2641F3F2D0002CBB4E8EFA5090FFD625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A011D7244DE307FA1810C465287FAED1 /* Pods-OpenARTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		404A9DD786904475140579E882066957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0478F1A98089E1EBF33BD5898120F0 /* RadioButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RadioButton/RadioButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RadioButton;
+				PRODUCT_NAME = RadioButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		45576CD853BFBC7F06CC1CE36BECB1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5698246968929A3AA1F61E46A3C62E4 /* Pods-OpenARUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9BADA498366A63BFBE8AB167643D0944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0478F1A98089E1EBF33BD5898120F0 /* RadioButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RadioButton/RadioButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RadioButton;
+				PRODUCT_NAME = RadioButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5E4C54F337B7D2F1FE0DEA6E46BD189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C10EC1D3F9CFBEBB370675EE638ED7C /* Pods-OpenARUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A393B8BD9635550895AE2E1A7787EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BDBF97BD120CCC982F466B78B3F711 /* Pods-OpenAR.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28530B92278F271AE393F88E6914C571 /* Build configuration list for PBXNativeTarget "Pods-OpenAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D2726525C79DEC7CF3A8E2A430FD2C /* Debug */,
+				D2A393B8BD9635550895AE2E1A7787EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
+				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558C92E03C6BB82553971147C680CFDD /* Build configuration list for PBXNativeTarget "Pods-OpenARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E4C54F337B7D2F1FE0DEA6E46BD189 /* Debug */,
+				45576CD853BFBC7F06CC1CE36BECB1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828025E4963EA1A0497586E92C5BD107 /* Build configuration list for PBXNativeTarget "Pods-OpenARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2641F3F2D0002CBB4E8EFA5090FFD625 /* Debug */,
+				1F427E263EAA4409A5DAC38793647D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB5BD7181927BEAB0C9E3574750039D /* Build configuration list for PBXNativeTarget "RadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404A9DD786904475140579E882066957 /* Debug */,
+				9BADA498366A63BFBE8AB167643D0944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

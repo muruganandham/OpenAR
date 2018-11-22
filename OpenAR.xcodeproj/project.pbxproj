@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26087BA221A6AE40003D7D2E /* libRadioButton.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26087B9F21A6ADFF003D7D2E /* libRadioButton.a */; };
 		26611AC221A4159A0020BA8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AC121A4159A0020BA8D /* AppDelegate.m */; };
 		26611AC421A4159A0020BA8D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 26611AC321A4159A0020BA8D /* art.scnassets */; };
 		26611AC721A4159A0020BA8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AC621A4159A0020BA8D /* ViewController.m */; };
@@ -17,32 +16,12 @@
 		26611AD221A4159B0020BA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AD121A4159B0020BA8D /* main.m */; };
 		26611ADC21A4159B0020BA8D /* OpenARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611ADB21A4159B0020BA8D /* OpenARTests.m */; };
 		26611AE721A4159B0020BA8D /* OpenARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AE621A4159B0020BA8D /* OpenARUITests.m */; };
-		26611B6121A443910020BA8D /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26611B5F21A443910020BA8D /* HockeySDKResources.bundle */; };
-		26611B6221A443910020BA8D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611B6021A443910020BA8D /* HockeySDK.framework */; };
+		5A8C504A066F21B26643DD11 /* libPods-OpenAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC51FCBB27829CE6496C669 /* libPods-OpenAR.a */; };
+		B9AE458352F928CFEADE1C65 /* libPods-OpenARTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B37B79E48E7F4B31853F912 /* libPods-OpenARTests.a */; };
+		F596441E882A23C5A20FAD6F /* libPods-OpenARUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB43426D40D80E96EE10E5FA /* libPods-OpenARUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26087B9C21A6ADFF003D7D2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 73F292FAA6ABD15A317AC3D444164EA1;
-			remoteInfo = "Pods-OpenAR";
-		};
-		26087B9E21A6ADFF003D7D2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2FDB786075CF6E4C528B9CC219293C07;
-			remoteInfo = RadioButton;
-		};
-		26087BA021A6AE30003D7D2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5CC7AF958992DE3EFBDA9439830B45E0;
-			remoteInfo = RadioButton;
-		};
 		26611AD821A4159B0020BA8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26611AB521A4159A0020BA8D /* Project object */;
@@ -66,7 +45,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				26087BA221A6AE40003D7D2E /* libRadioButton.a in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,7 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = SOURCE_ROOT; };
 		26611ABD21A4159A0020BA8D /* OpenAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611AC021A4159A0020BA8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26611AC121A4159A0020BA8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,8 +69,15 @@
 		26611AE221A4159B0020BA8D /* OpenARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611AE621A4159B0020BA8D /* OpenARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenARUITests.m; sourceTree = "<group>"; };
 		26611AE821A4159B0020BA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26611B5F21A443910020BA8D /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
-		26611B6021A443910020BA8D /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		36CC984B6B6632AE0F0C096C /* Pods-OpenARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenARTests/Pods-OpenARTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B37B79E48E7F4B31853F912 /* libPods-OpenARTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenARTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F633CACB85815D8A9177571 /* Pods-OpenARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenARUITests/Pods-OpenARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		540874408843EFA7AE0EDBC3 /* Pods-OpenARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenARUITests/Pods-OpenARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FC51FCBB27829CE6496C669 /* libPods-OpenAR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenAR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64226F34BEB86E946D761D0A /* Pods-OpenARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenARTests/Pods-OpenARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BCB999723563810E62E9A55 /* Pods-OpenAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenAR/Pods-OpenAR.release.xcconfig"; sourceTree = "<group>"; };
+		7EEBC5326A846B12795A778E /* Pods-OpenAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenAR/Pods-OpenAR.debug.xcconfig"; sourceTree = "<group>"; };
+		AB43426D40D80E96EE10E5FA /* libPods-OpenARUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenARUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26611B6221A443910020BA8D /* HockeySDK.framework in Frameworks */,
+				5A8C504A066F21B26643DD11 /* libPods-OpenAR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9AE458352F928CFEADE1C65 /* libPods-OpenARTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,21 +101,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F596441E882A23C5A20FAD6F /* libPods-OpenARUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26087B9821A6ADFF003D7D2E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				26087B9D21A6ADFF003D7D2E /* libPods-OpenAR.a */,
-				26087B9F21A6ADFF003D7D2E /* libRadioButton.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		26611AB421A4159A0020BA8D = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +115,8 @@
 				26611ADA21A4159B0020BA8D /* OpenARTests */,
 				26611AE521A4159B0020BA8D /* OpenARUITests */,
 				26611ABE21A4159A0020BA8D /* Products */,
+				BDEC39115BAF912E705D1F9C /* Pods */,
+				C75AA62972E6BA4BB235D093 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,8 +133,6 @@
 		26611ABF21A4159A0020BA8D /* OpenAR */ = {
 			isa = PBXGroup;
 			children = (
-				26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */,
-				26611B5E21A443910020BA8D /* HockeySDK.embeddedframework */,
 				26611AC021A4159A0020BA8D /* AppDelegate.h */,
 				26611AC121A4159A0020BA8D /* AppDelegate.m */,
 				26611AC321A4159A0020BA8D /* art.scnassets */,
@@ -188,14 +165,28 @@
 			path = OpenARUITests;
 			sourceTree = "<group>";
 		};
-		26611B5E21A443910020BA8D /* HockeySDK.embeddedframework */ = {
+		BDEC39115BAF912E705D1F9C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				26611B5F21A443910020BA8D /* HockeySDKResources.bundle */,
-				26611B6021A443910020BA8D /* HockeySDK.framework */,
+				7EEBC5326A846B12795A778E /* Pods-OpenAR.debug.xcconfig */,
+				7BCB999723563810E62E9A55 /* Pods-OpenAR.release.xcconfig */,
+				64226F34BEB86E946D761D0A /* Pods-OpenARTests.debug.xcconfig */,
+				36CC984B6B6632AE0F0C096C /* Pods-OpenARTests.release.xcconfig */,
+				540874408843EFA7AE0EDBC3 /* Pods-OpenARUITests.debug.xcconfig */,
+				4F633CACB85815D8A9177571 /* Pods-OpenARUITests.release.xcconfig */,
 			);
-			path = HockeySDK.embeddedframework;
-			sourceTree = SOURCE_ROOT;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C75AA62972E6BA4BB235D093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FC51FCBB27829CE6496C669 /* libPods-OpenAR.a */,
+				4B37B79E48E7F4B31853F912 /* libPods-OpenARTests.a */,
+				AB43426D40D80E96EE10E5FA /* libPods-OpenARUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -204,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26611AEB21A4159B0020BA8D /* Build configuration list for PBXNativeTarget "OpenAR" */;
 			buildPhases = (
+				13AF99D6B759FE6C640899C8 /* [CP] Check Pods Manifest.lock */,
 				26611AB921A4159A0020BA8D /* Sources */,
 				26611ABA21A4159A0020BA8D /* Frameworks */,
 				26611ABB21A4159A0020BA8D /* Resources */,
@@ -213,7 +205,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				26087BA121A6AE30003D7D2E /* PBXTargetDependency */,
 			);
 			name = OpenAR;
 			productName = OpenAR;
@@ -224,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26611AEE21A4159B0020BA8D /* Build configuration list for PBXNativeTarget "OpenARTests" */;
 			buildPhases = (
+				8489B46BA57DBD21201B6459 /* [CP] Check Pods Manifest.lock */,
 				26611AD321A4159B0020BA8D /* Sources */,
 				26611AD421A4159B0020BA8D /* Frameworks */,
 				26611AD521A4159B0020BA8D /* Resources */,
@@ -242,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26611AF121A4159B0020BA8D /* Build configuration list for PBXNativeTarget "OpenARUITests" */;
 			buildPhases = (
+				7147CB267D2297302771C4CF /* [CP] Check Pods Manifest.lock */,
 				26611ADE21A4159B0020BA8D /* Sources */,
 				26611ADF21A4159B0020BA8D /* Frameworks */,
 				26611AE021A4159B0020BA8D /* Resources */,
@@ -289,12 +282,6 @@
 			mainGroup = 26611AB421A4159A0020BA8D;
 			productRefGroup = 26611ABE21A4159A0020BA8D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 26087B9821A6ADFF003D7D2E /* Products */;
-					ProjectRef = 26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				26611ABC21A4159A0020BA8D /* OpenAR */,
@@ -304,23 +291,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		26087B9D21A6ADFF003D7D2E /* libPods-OpenAR.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-OpenAR.a";
-			remoteRef = 26087B9C21A6ADFF003D7D2E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		26087B9F21A6ADFF003D7D2E /* libRadioButton.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRadioButton.a;
-			remoteRef = 26087B9E21A6ADFF003D7D2E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		26611ABB21A4159A0020BA8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -328,7 +298,6 @@
 			files = (
 				26611AC421A4159A0020BA8D /* art.scnassets in Resources */,
 				26611ACF21A4159B0020BA8D /* LaunchScreen.storyboard in Resources */,
-				26611B6121A443910020BA8D /* HockeySDKResources.bundle in Resources */,
 				26611ACC21A4159B0020BA8D /* Assets.xcassets in Resources */,
 				26611ACA21A4159A0020BA8D /* Main.storyboard in Resources */,
 			);
@@ -351,6 +320,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		13AF99D6B759FE6C640899C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		26611B5221A442C00020BA8D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +358,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi\n";
+		};
+		7147CB267D2297302771C4CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8489B46BA57DBD21201B6459 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -400,11 +435,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26087BA121A6AE30003D7D2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RadioButton;
-			targetProxy = 26087BA021A6AE30003D7D2E /* PBXContainerItemProxy */;
-		};
 		26611AD921A4159B0020BA8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 26611ABC21A4159A0020BA8D /* OpenAR */;
@@ -551,6 +581,7 @@
 		};
 		26611AEC21A4159B0020BA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEBC5326A846B12795A778E /* Pods-OpenAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -575,6 +606,7 @@
 		};
 		26611AED21A4159B0020BA8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCB999723563810E62E9A55 /* Pods-OpenAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -600,6 +632,7 @@
 		};
 		26611AEF21A4159B0020BA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64226F34BEB86E946D761D0A /* Pods-OpenARTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -619,6 +652,7 @@
 		};
 		26611AF021A4159B0020BA8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CC984B6B6632AE0F0C096C /* Pods-OpenARTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -638,6 +672,7 @@
 		};
 		26611AF221A4159B0020BA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540874408843EFA7AE0EDBC3 /* Pods-OpenARUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9A3XYQH875;
@@ -656,6 +691,7 @@
 		};
 		26611AF321A4159B0020BA8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F633CACB85815D8A9177571 /* Pods-OpenARUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9A3XYQH875;

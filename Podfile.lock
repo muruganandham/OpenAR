@@ -1,16 +1,27 @@
 PODS:
+  - AppCenter (1.10.0):
+    - AppCenter/Analytics (= 1.10.0)
+    - AppCenter/Crashes (= 1.10.0)
+  - AppCenter/Analytics (1.10.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.10.0)
+  - AppCenter/Crashes (1.10.0):
+    - AppCenter/Core
   - RadioButton (1.0)
 
 DEPENDENCIES:
+  - AppCenter
   - RadioButton (~> 1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AppCenter
     - RadioButton
 
 SPEC CHECKSUMS:
+  AppCenter: 2d196f6547d274ab86836f9082cfdbd3d397e7b6
   RadioButton: 7ef053baf6ff0e7f9e777016c28e9ba4e330edba
 
-PODFILE CHECKSUM: c3a140bd506e90db02476bda3e93b770c3013c72
+PODFILE CHECKSUM: 216e50d6d259c5b265d3d67226bd1e61ceee1924
 
 COCOAPODS: 1.5.3

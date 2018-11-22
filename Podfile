@@ -7,6 +7,8 @@ target 'OpenAR' do
 
   # Pods for OpenAR
   pod 'RadioButton', '~> 1.0'
+  pod 'AppCenter'
+
 
   target 'OpenARTests' do
     inherit! :search_paths

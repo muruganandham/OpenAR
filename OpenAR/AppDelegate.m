@@ -17,7 +17,6 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [MSAppCenter start:@"83763ce3-760f-47e0-a880-cdb2b61cbc57" withServices:@[

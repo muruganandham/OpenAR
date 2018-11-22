@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26087BA221A6AE40003D7D2E /* libRadioButton.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26087B9F21A6ADFF003D7D2E /* libRadioButton.a */; };
 		26611AC221A4159A0020BA8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AC121A4159A0020BA8D /* AppDelegate.m */; };
 		26611AC421A4159A0020BA8D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 26611AC321A4159A0020BA8D /* art.scnassets */; };
 		26611AC721A4159A0020BA8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AC621A4159A0020BA8D /* ViewController.m */; };
@@ -21,6 +22,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		26087B9C21A6ADFF003D7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73F292FAA6ABD15A317AC3D444164EA1;
+			remoteInfo = "Pods-OpenAR";
+		};
+		26087B9E21A6ADFF003D7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2FDB786075CF6E4C528B9CC219293C07;
+			remoteInfo = RadioButton;
+		};
+		26087BA021A6AE30003D7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC7AF958992DE3EFBDA9439830B45E0;
+			remoteInfo = RadioButton;
+		};
 		26611AD821A4159B0020BA8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26611AB521A4159A0020BA8D /* Project object */;
@@ -44,6 +66,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				26087BA221A6AE40003D7D2E /* libRadioButton.a in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +74,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = SOURCE_ROOT; };
 		26611ABD21A4159A0020BA8D /* OpenAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611AC021A4159A0020BA8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26611AC121A4159A0020BA8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +122,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26087B9821A6ADFF003D7D2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26087B9D21A6ADFF003D7D2E /* libPods-OpenAR.a */,
+				26087B9F21A6ADFF003D7D2E /* libRadioButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		26611AB421A4159A0020BA8D = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +154,7 @@
 		26611ABF21A4159A0020BA8D /* OpenAR */ = {
 			isa = PBXGroup;
 			children = (
+				26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */,
 				26611B5E21A443910020BA8D /* HockeySDK.embeddedframework */,
 				26611AC021A4159A0020BA8D /* AppDelegate.h */,
 				26611AC121A4159A0020BA8D /* AppDelegate.m */,
@@ -179,6 +213,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				26087BA121A6AE30003D7D2E /* PBXTargetDependency */,
 			);
 			name = OpenAR;
 			productName = OpenAR;
@@ -254,6 +289,12 @@
 			mainGroup = 26611AB421A4159A0020BA8D;
 			productRefGroup = 26611ABE21A4159A0020BA8D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 26087B9821A6ADFF003D7D2E /* Products */;
+					ProjectRef = 26087B9721A6ADFF003D7D2E /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				26611ABC21A4159A0020BA8D /* OpenAR */,
@@ -262,6 +303,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		26087B9D21A6ADFF003D7D2E /* libPods-OpenAR.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-OpenAR.a";
+			remoteRef = 26087B9C21A6ADFF003D7D2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26087B9F21A6ADFF003D7D2E /* libRadioButton.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRadioButton.a;
+			remoteRef = 26087B9E21A6ADFF003D7D2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		26611ABB21A4159A0020BA8D /* Resources */ = {
@@ -342,6 +400,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		26087BA121A6AE30003D7D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RadioButton;
+			targetProxy = 26087BA021A6AE30003D7D2E /* PBXContainerItemProxy */;
+		};
 		26611AD921A4159B0020BA8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 26611ABC21A4159A0020BA8D /* OpenAR */;

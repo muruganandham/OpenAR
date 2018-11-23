@@ -33,6 +33,8 @@
 //    // Set the scene to the view
 //    self.sceneView.scene = scene;
     
+    [self.view setBackgroundColor:[UIColor greenColor]];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {

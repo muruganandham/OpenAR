@@ -1,0 +1,3 @@
+[submodule "OSControls"]
+	path = OSControls
+	url = https://muruganandham@github.com/OpenSiOS/OSControl.git

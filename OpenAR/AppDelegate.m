@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <OSControl/OSControl.h>
 @import AppCenter;
 @import AppCenterAnalytics;
 @import AppCenterCrashes;
+
 
 @interface AppDelegate ()
 

@@ -16,6 +16,8 @@
 		26611AD221A4159B0020BA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AD121A4159B0020BA8D /* main.m */; };
 		26611ADC21A4159B0020BA8D /* OpenARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611ADB21A4159B0020BA8D /* OpenARTests.m */; };
 		26611AE721A4159B0020BA8D /* OpenARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611AE621A4159B0020BA8D /* OpenARUITests.m */; };
+		269B82FA21AC1E5F00B17C45 /* OSControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269B82F321AC0FFE00B17C45 /* OSControl.framework */; };
+		269B82FB21AC1E5F00B17C45 /* OSControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 269B82F321AC0FFE00B17C45 /* OSControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A8C504A066F21B26643DD11 /* libPods-OpenAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC51FCBB27829CE6496C669 /* libPods-OpenAR.a */; };
 		B9AE458352F928CFEADE1C65 /* libPods-OpenARTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B37B79E48E7F4B31853F912 /* libPods-OpenARTests.a */; };
 		F596441E882A23C5A20FAD6F /* libPods-OpenARUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB43426D40D80E96EE10E5FA /* libPods-OpenARUITests.a */; };
@@ -36,15 +38,37 @@
 			remoteGlobalIDString = 26611ABC21A4159A0020BA8D;
 			remoteInfo = OpenAR;
 		};
+		269B82F221AC0FFE00B17C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269B82ED21AC0FFE00B17C45 /* OSControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 26611B6D21A51C840020BA8D;
+			remoteInfo = OSControl;
+		};
+		269B82F421AC0FFE00B17C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269B82ED21AC0FFE00B17C45 /* OSControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 26611B7621A51C850020BA8D;
+			remoteInfo = OSControlTests;
+		};
+		269B82FC21AC1E5F00B17C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269B82ED21AC0FFE00B17C45 /* OSControl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 26611B6C21A51C840020BA8D;
+			remoteInfo = OSControl;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		26611B5121A418A80020BA8D /* Embed Frameworks */ = {
+		269B82FE21AC1E5F00B17C45 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				269B82FB21AC1E5F00B17C45 /* OSControl.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +93,7 @@
 		26611AE221A4159B0020BA8D /* OpenARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611AE621A4159B0020BA8D /* OpenARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenARUITests.m; sourceTree = "<group>"; };
 		26611AE821A4159B0020BA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269B82ED21AC0FFE00B17C45 /* OSControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OSControl.xcodeproj; path = OSControls/OSControl.xcodeproj; sourceTree = "<group>"; };
 		36CC984B6B6632AE0F0C096C /* Pods-OpenARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenARTests/Pods-OpenARTests.release.xcconfig"; sourceTree = "<group>"; };
 		4B37B79E48E7F4B31853F912 /* libPods-OpenARTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenARTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F633CACB85815D8A9177571 /* Pods-OpenARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenARUITests/Pods-OpenARUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269B82FA21AC1E5F00B17C45 /* OSControl.framework in Frameworks */,
 				5A8C504A066F21B26643DD11 /* libPods-OpenAR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +137,7 @@
 		26611AB421A4159A0020BA8D = {
 			isa = PBXGroup;
 			children = (
+				269B82ED21AC0FFE00B17C45 /* OSControl.xcodeproj */,
 				26611ABF21A4159A0020BA8D /* OpenAR */,
 				26611ADA21A4159B0020BA8D /* OpenARTests */,
 				26611AE521A4159B0020BA8D /* OpenARUITests */,
@@ -165,6 +192,15 @@
 			path = OpenARUITests;
 			sourceTree = "<group>";
 		};
+		269B82EE21AC0FFE00B17C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269B82F321AC0FFE00B17C45 /* OSControl.framework */,
+				269B82F521AC0FFE00B17C45 /* OSControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BDEC39115BAF912E705D1F9C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,12 +235,13 @@
 				26611AB921A4159A0020BA8D /* Sources */,
 				26611ABA21A4159A0020BA8D /* Frameworks */,
 				26611ABB21A4159A0020BA8D /* Resources */,
-				26611B5121A418A80020BA8D /* Embed Frameworks */,
 				26611B5221A442C00020BA8D /* ShellScript */,
+				269B82FE21AC1E5F00B17C45 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				269B82FD21AC1E5F00B17C45 /* PBXTargetDependency */,
 			);
 			name = OpenAR;
 			productName = OpenAR;
@@ -282,6 +319,12 @@
 			mainGroup = 26611AB421A4159A0020BA8D;
 			productRefGroup = 26611ABE21A4159A0020BA8D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 269B82EE21AC0FFE00B17C45 /* Products */;
+					ProjectRef = 269B82ED21AC0FFE00B17C45 /* OSControl.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				26611ABC21A4159A0020BA8D /* OpenAR */,
@@ -290,6 +333,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		269B82F321AC0FFE00B17C45 /* OSControl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OSControl.framework;
+			remoteRef = 269B82F221AC0FFE00B17C45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		269B82F521AC0FFE00B17C45 /* OSControlTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OSControlTests.xctest;
+			remoteRef = 269B82F421AC0FFE00B17C45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		26611ABB21A4159A0020BA8D /* Resources */ = {
@@ -445,6 +505,11 @@
 			target = 26611ABC21A4159A0020BA8D /* OpenAR */;
 			targetProxy = 26611AE321A4159B0020BA8D /* PBXContainerItemProxy */;
 		};
+		269B82FD21AC1E5F00B17C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OSControl;
+			targetProxy = 269B82FC21AC1E5F00B17C45 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -589,8 +654,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/AppCenter/AppCenter-SDK-Apple/iOS",
-					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = OpenAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -615,8 +678,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/AppCenter/AppCenter-SDK-Apple/iOS",
-					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/HockeySDK.embeddedframework",
 				);
 				INFOPLIST_FILE = OpenAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
